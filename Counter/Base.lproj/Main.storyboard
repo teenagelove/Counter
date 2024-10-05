@@ -28,10 +28,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="rzf-DC-nl0">
-                                        <rect key="frame" x="66" y="263" width="261" height="34.333333333333314"/>
+                                        <rect key="frame" x="66" y="280" width="261" height="34.333333333333314"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRU-pj-mjW">
-                                                <rect key="frame" x="0.0" y="17" width="47" height="0.0"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <imageReference key="image" image="plus" catalog="system" symbolScale="large"/>
@@ -52,7 +52,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HnH-Ea-CW6">
-                                                <rect key="frame" x="214" y="0.0" width="47" height="34.333333333333336"/>
+                                                <rect key="frame" x="214" y="0.0" width="47" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <imageReference key="image" image="arrow.clockwise" catalog="system" symbolScale="large"/>
@@ -64,7 +64,7 @@
                                         </subviews>
                                     </stackView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" editable="NO" text="История изменений: " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BPL-gC-HWy">
-                                        <rect key="frame" x="0.0" y="539" width="393" height="220"/>
+                                        <rect key="frame" x="0.0" y="573.33333333333337" width="393" height="185.66666666666663"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
