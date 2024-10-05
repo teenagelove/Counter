@@ -8,11 +8,11 @@
 import UIKit
 
 final class ViewController: UIViewController {
-    @IBOutlet weak var counterLabel: UILabel!
-    @IBOutlet weak var plusButton: UIButton!
-    @IBOutlet weak var minusButton: UIButton!
-    @IBOutlet weak var resetButton: UIButton!
-    @IBOutlet weak var historyTextView: UITextView!
+    @IBOutlet private weak var counterLabel: UILabel!
+    @IBOutlet private weak var plusButton: UIButton!
+    @IBOutlet private weak var minusButton: UIButton!
+    @IBOutlet private weak var resetButton: UIButton!
+    @IBOutlet private weak var historyTextView: UITextView!
     
     private var counter: Int = 0 {
         didSet {
@@ -84,15 +84,15 @@ final class ViewController: UIViewController {
         appendToHistory(message: message)
     }
     
-    @IBAction func plusButtonDidTap(_ sender: UIButton) {
+    @IBAction private func plusButtonDidTap(_ sender: UIButton) {
         changeCounter(.increase)
     }
     
-    @IBAction func minusButtonDidTap(_ sender: UIButton) {
+    @IBAction private func minusButtonDidTap(_ sender: UIButton) {
         changeCounter(.decrease)
     }
     
-    @IBAction func resetButtonDidTap(_ sender: UIButton) {
+    @IBAction private func resetButtonDidTap(_ sender: UIButton) {
         changeCounter(.reset)
     }
 }
