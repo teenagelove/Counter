@@ -63,7 +63,7 @@ final class ViewController: UIViewController {
     }
     
     private func changeCounter(_ action: CounterAction) {
-        var message: String
+        let message: String
         
         switch action {
         case .increase:
